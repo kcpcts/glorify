@@ -1,0 +1,10 @@
+/* styles.css */
+@keyframes characterReveal {
+    0% { clip-path: inset(0 100% 0 0); }
+    100% { clip-path: inset(0 0 0 0); }
+}
+
+.animated-char {
+    display: inline-block;
+    animation: characterReveal 100ms ease-out forwards;
+}
